@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='walkthroughs/simpletweet_part1_walkthrough.gif' title='Video Walkthrough in Portrait mode' width='' alt='Video Walkthrough in Portrait mode' />
+<img src='simpletweet_part1_walkthrough.gif' title='Video Walkthrough in Portrait mode' width='' alt='Video Walkthrough in Portrait mode' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
