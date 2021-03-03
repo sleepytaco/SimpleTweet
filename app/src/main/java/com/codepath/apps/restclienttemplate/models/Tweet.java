@@ -11,7 +11,6 @@ import java.util.List;
 
 public class Tweet {
 
-    //private static String createdAt;
     public String body;
     public String createdAt;
     public long id;
@@ -40,6 +39,12 @@ public class Tweet {
     }
 
     public String getFormattedTimestamp() {
-        return TimeFormatter.getTimeDifference(createdAt);
+        String timestamp = TimeFormatter.getTimeDifference(createdAt);
+
+        if (timestamp.contains("Just now")) {
+            return timestamp;
+        }
+
+        return  timestamp + " ago";
     }
 }
